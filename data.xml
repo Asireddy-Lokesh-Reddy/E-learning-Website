@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+
+    <course>
+        <id>1</id>
+        <title>Web Development</title>
+        <instructor>Prof. Smith</instructor>
+        <rating>4.8</rating>
+        <price>Free</price>
+    </course>
+
+    <course>
+        <id>2</id>
+        <title>Python Basics</title>
+        <instructor>Dr. Jones</instructor>
+        <rating>4.5</rating>
+        <price>Free</price>
+    </course>
+
+</courses>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CBIT E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- navbar -->
+<div class="navbar">
+    <h2>CBIT E Learning Platform</h2>
+    <nav>
+        <a href="index.html">Home Page</a>
+        <a href="courses.html">Courses</a>
+        <a href="register.html" class="active">Register/Login</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</div>
+
+<div class="content-area">
+
+    <h2 style="color: black;">Register / Login</h2>
+    <br>
+
+    <!-- register form -->
+    <form class="register-form" onsubmit="return validateRegisterForm()">
+        <h3>Register</h3>
+        <br>
+
+        <label><b>Name:</b></label><br>
+        <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+
+        <label><b>Email:</b></label><br>
+        <input type="text" id="email" placeholder="Enter Email"><br><br>
+
+        <label><b>Password:</b></label><br>
+        <input type="password" id="password" placeholder="Enter Password"><br><br>
+
+        <label><b>Confirm Password:</b></label><br>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password"><br><br>
+
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <!-- login form -->
+    <form class="register-form" onsubmit="return validateLoginForm()">
+        <h3>Login</h3>
+        <br>
+
+        <label><b>Email:</b></label><br>
+        <input type="text" id="loginEmail" placeholder="Enter Email"><br><br>
+
+        <label><b>Password:</b></label><br>
+        <input type="password" id="loginPassword" placeholder="Enter Password"><br><br>
+
+        <button type="submit">Login</button>
+    </form>
+
+</div>
+
+<!-- footer -->
+<div class="site-footer">
+    <p>All rights reserved | CBIT CSE-3 | Web Programming</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+
+    <course>
+        <title>Web Development</title>
+        <description>Learn HTML, CSS, and JavaScript.</description>
+        <instructor>Prof. Smith</instructor>
+        <price>Free</price>
+        <rating>4.8</rating>
+    </course>
+
+    <course>
+        <title>Python Basics</title>
+        <description>Start your programming journey here.</description>
+        <instructor>Dr. Johnson</instructor>
+        <price>$49.99</price>
+        <rating>4.5</rating>
+    </course>
+
+    <course>
+        <title>Data Science</title>
+        <description>Learn to analyze and visualize data.</description>
+        <instructor>Dr. Lee</instructor>
+        <price>$59.99</price>
+        <rating>4.9</rating>
+    </course>
+
+</courses>
